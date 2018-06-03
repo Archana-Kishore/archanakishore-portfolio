@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<style>
+    .img-size {
+        height: 50px;
+        width: 50px;
+    }
+
+    .margin15Top {
+        margin-top: 15px
+    }
+
+    .margin15Left {
+        margin-left: 15px
+    }
+
+    .margin15Right {
+        margin-right: 15px
+    }
+
+    .margin35Top {
+        margin-top: 35px
+    }
+
+    .margin60Top {
+        margin-top: 60px
+    }
+
+    .photo-img-size {
+        height: 120px;
+        width: 120px;
+    }
+
+    .tabsbg {
+        opacity: 0.6;
+        width: 100px;
+        height: 100px;
+        padding: 7px;
+        background-color: crimson;
+    }
+
+        .tabsbg:hover {
+            background-color: burlywood;
+        }
+
+    .previewBg {
+        background-color: #DDDDDD;
+    }
+
+    .hideDiv {
+        display: none;
+    }
+
+    .interestsPreview {
+        height: 190px;
+    }
+
+    .active-item {
+        background-color: crimson;
+    }
+
+    .fontIcons{
+        color:white;
+        font-size: 12px;
+    }
+
+</style>
+
+<div class="container container-fluid margin35Top">
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-7">
+            <img class="rounded-circle photo-img-size" src="~/images/mony12.jpg" alt="Archana Kishore">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+            <h4>Archana Kishore</h4>
+            <div><code>Data Engineer</code></div>
+            <div>
+                After finding interesting questions, the data scientist must be able to answer them! Finding these answers may
+                require a knowledge of statistics, machine learning, and data mining tools. If data mining tools are unavailable,
+                then the data scientist might be better prepared by having the skills to learn these tools quickly.
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row margin60Top">
+        <div class="col-md-4"></div>
+        <div class="col-md-1 text-center margin15Right">
+            <div id="resumeIcon" class="container tabsbg rounded-circle">
+                <a href="#">
+                    <img class="img-size rounded-circle" src="~/images/ResumeIcon.png" alt="Card image cap">
+                    <div>
+                        <h6 class="fontIcons">Resume</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-1 text-center margin15Left margin15Right">
+            <div id="projectsIcon" class="container tabsbg rounded-circle">
+                <a href="#">
+                    <img class="img-size rounded-circle" src="~/images/ProjectIcon.png" alt="Card image cap">
+                    <div>
+                        <h6 class="fontIcons">Projects</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-1 text-center margin15Left margin15Right">
+            <div id="interestsIcon" class="container tabsbg rounded-circle">
+                <a href="#">
+                    <img class="img-size rounded-circle" src="~/images/InterestsIcon.png" alt="Card image cap">
+                    <div>
+                        <h6 class="fontIcons">Interests</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class=" col-md-5"></div>
+    </div>
